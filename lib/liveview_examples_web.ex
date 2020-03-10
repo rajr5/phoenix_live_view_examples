@@ -24,6 +24,7 @@ defmodule LiveviewExamplesWeb do
       import Plug.Conn
       import LiveviewExamplesWeb.Gettext
       alias LiveviewExamplesWeb.Router.Helpers, as: Routes
+      import Phoenix.LiveView.Controller
     end
   end
 
@@ -42,6 +43,8 @@ defmodule LiveviewExamplesWeb do
       import LiveviewExamplesWeb.ErrorHelpers
       import LiveviewExamplesWeb.Gettext
       alias LiveviewExamplesWeb.Router.Helpers, as: Routes
+
+      import Phoenix.LiveView.Helpers
     end
   end
 
@@ -50,6 +53,8 @@ defmodule LiveviewExamplesWeb do
       use Phoenix.Router
       import Plug.Conn
       import Phoenix.Controller
+
+      import Phoenix.LiveView.Router
     end
   end
 
