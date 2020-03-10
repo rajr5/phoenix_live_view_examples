@@ -7,7 +7,7 @@ defmodule LiveviewExamplesWeb.SearchLive do
     ~L"""
     <form phx-change="search" phx-submit="search">
       <%# autocomplete="new-pasword" disables chrome autofill for the input %>
-      <input type="text" name="q" value="<%= @query %>" placeholder="Search..." autocomplete="new-password" />
+      <input type="text" name="q" value="<%= @query %>" placeholder="Search..." autocomplete="new-password" autofill="off" />
     </form>
 
     <table>

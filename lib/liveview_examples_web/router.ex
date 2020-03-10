@@ -28,7 +28,10 @@ defmodule LiveviewExamplesWeb.Router do
 
   scope "/", LiveviewExamplesWeb do
     pipe_through([:browser, :liveview_pipeline])
+
     live "/search", SearchLive
+    live "/clicker", SingleClickerLive
+    live "/dynamic-clickers", DynamicClickersLive
   end
 
   # Other scopes may use custom stacks.

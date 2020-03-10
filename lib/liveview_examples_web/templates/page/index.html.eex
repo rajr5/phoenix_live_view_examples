@@ -10,6 +10,12 @@
       <li>
         <a href="/search">LiveView Search</a>
       </li>
+      <li>
+        <a href="/clicker">LiveComponent Simple</a>
+      </li>
+      <li>
+        <a href="/dynamic-clickers">LiveComponents Simple 2</a>
+      </li>
     </ul>
   </article>
 </section>

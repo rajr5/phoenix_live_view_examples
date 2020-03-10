@@ -1,3 +1,35 @@
 /* This file is for your main application css. */
 
 @import "./phoenix.css";
+
+
+.clicker {
+    /* width: 150px; */
+    display: flex;
+}
+
+.clicker input {
+    width: 100px;
+}
+
+.clickers {
+    /* display: flex;
+    flex-wrap: wrap; */
+
+    /* negative margin so nested items are properly aligned */
+    /* margin: -10px; */
+}
+
+.clickers .wrapped-clicker {
+    /* add some margin so the components aren't glued to each other */
+    margin-top: 20px;
+    display: flex;
+}
+
+.wrapped-clicker {
+    display: flex;
+}
+
+.clicker-remove-button {
+    margin-left: 10px;
+}
